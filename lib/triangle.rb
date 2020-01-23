@@ -29,13 +29,13 @@ def kind()
  return :scalene
  
  
+ class TriangleError < StandardError
+   
 
 end
 end
 end 
- class TriangleError < StandardError
-   
-end
+ 
 
 
 
