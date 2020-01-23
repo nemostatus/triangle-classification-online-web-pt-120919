@@ -28,12 +28,13 @@ def kind()
  @length_1 != @length_2 && @length_2 != @length_3 && @length_1 != @length_3 
  return :scalene
  end
+ end
  
  
  class TriangleError < StandardError
    
 
-end
+
 end
 end 
  
