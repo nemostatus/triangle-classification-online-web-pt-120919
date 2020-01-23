@@ -36,7 +36,7 @@ end
  class TriangleError < StandardError
    
 end
-raise TriangleError
+
 
 
 
