@@ -1,5 +1,4 @@
-class TriangleError < StandardError
-end
+
 class Triangle
   attr_accessor :length_1,:length_2,:length_3
 
@@ -34,7 +33,8 @@ def kind
 end
 end
 end 
- 
+ class TriangleError < StandardError
+end
 
 
 
